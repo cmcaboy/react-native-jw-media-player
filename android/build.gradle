@@ -45,8 +45,11 @@ allprojects {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.longtailvideo.jwplayer:jwplayer-core:+'
-    implementation 'com.longtailvideo.jwplayer:jwplayer-common:+'
-    implementation 'com.longtailvideo.jwplayer:jwplayer-ima:+'
+    // implementation 'com.longtailvideo.jwplayer:jwplayer-core:+'
+    // implementation 'com.longtailvideo.jwplayer:jwplayer-common:+'
+    // implementation 'com.longtailvideo.jwplayer:jwplayer-ima:+'
+    implementation 'com.longtailvideo.jwplayer:jwplayer-core:3.15.+'
+    implementation 'com.longtailvideo.jwplayer:jwplayer-common:3.15.+'
+    implementation 'com.longtailvideo.jwplayer:jwplayer-ima:3.15.+'
 }
 
